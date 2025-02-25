@@ -110,7 +110,7 @@ class AdmobController extends FxController {
                 ),
               ),
               onWillPop: () async {
-                scaffoldKey.currentState!.hideCurrentSnackBar();
+                //scaffoldKey.currentState!.hideCurrentSnackBar();
                 return true;
               },
             );

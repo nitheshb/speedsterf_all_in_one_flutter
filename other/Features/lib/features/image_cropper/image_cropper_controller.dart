@@ -7,12 +7,12 @@ import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 
 class ImageCropperController extends FxController {
-  late AppState state;
+   //late AppState state;
   File? imageFile;
 
   ImageCropperController() {
     save = false;
-    state = AppState.free;
+    //state = AppState.free;
   }
 
   Future<void> pickImage() async {
@@ -22,7 +22,7 @@ class ImageCropperController extends FxController {
 
     if (pickedFile != null) {
       imageFile = File(pickedFile.path);
-      state = AppState.picked;
+    //  state = AppState.picked;
     }
     update();
   }
@@ -62,14 +62,14 @@ class ImageCropperController extends FxController {
         ));
     if (croppedFile != null) {
       imageFile = croppedFile;
-      state = AppState.cropped;
+     // state = AppState.cropped;
       update();
     }
   }
 
   void clearImage() {
     imageFile = null;
-    state = AppState.free;
+   // state = AppState.free;
     update();
   }
 

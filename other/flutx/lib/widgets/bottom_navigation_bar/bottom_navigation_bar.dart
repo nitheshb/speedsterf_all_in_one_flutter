@@ -327,8 +327,8 @@ class _FxBottomNavigationBarState extends State<FxBottomNavigationBar>
     showActiveLabel = widget.showActiveLabel ?? true;
     activeContainerColor = widget.activeContainerColor ??
         FxAppTheme.theme.primaryColor.withAlpha(100);
-    backgroundColor =
-        widget.backgroundColor ?? FxAppTheme.theme.backgroundColor;
+    //backgroundColor =
+       // widget.backgroundColor ?? FxAppTheme.theme.backgroundColor;
     activeTitleStyle = widget.activeTitleStyle;
     titleStyle = widget.titleStyle;
     activeTitleColor = widget.activeTitleColor;

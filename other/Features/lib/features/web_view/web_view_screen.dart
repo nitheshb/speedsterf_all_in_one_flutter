@@ -103,7 +103,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
             : [],
       ),
       body: Container(
-          child: WebView(
+        /*  child: WebView(
         initialUrl: 'https://www.google.com/',
         javascriptMode: JavascriptMode.unrestricted,
         onWebViewCreated: (WebViewController webViewController) {
@@ -124,7 +124,8 @@ class _WebViewScreenState extends State<WebViewScreen> {
           print('Page finished loading: $url');
         },
         gestureNavigationEnabled: true,
-      )),
+      )*/
+      ),
     );
   }
 }

@@ -94,8 +94,8 @@ class _GetRequestScreenState extends State<GetRequestScreen> {
                                         )
                                       : ClipOval(
                                           child: Container(
-                                            color: theme
-                                                .colorScheme.primaryVariant,
+                                            //color: theme
+                                              //  .colorScheme.primaryVariant,
                                             // button color
                                             child: SizedBox(
                                                 width: 30,

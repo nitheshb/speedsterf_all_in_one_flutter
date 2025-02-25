@@ -28,7 +28,7 @@ class AppNotifier extends ChangeNotifier {
 
   init() async {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
-    int data =  sharedPreferences.getInt("themeMode");
+    int? data =  sharedPreferences.getInt("themeMode");
     if(data==null)
       _themeMode = 1;
     else

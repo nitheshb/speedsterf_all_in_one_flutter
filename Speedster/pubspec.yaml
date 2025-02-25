@@ -52,11 +52,11 @@ dependencies:
   google_maps_flutter: ^2.0.3
   shimmer: ^2.0.0
   url_launcher: ^6.0.3
-  intl: ^0.18.0
+  intl: ^0.19.0
   rive: ^0.8.1
   flare_flutter: ^3.0.2
   flutter_intro: ^2.3.1
-  flutter_svg: ^2.0.5
+  flutter_svg: ^2.0.9
   flutx:
     path: ../flutx
   boxicons: ^2.1.3
