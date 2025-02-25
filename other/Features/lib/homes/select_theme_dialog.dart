@@ -58,7 +58,7 @@ class _SelectThemeDialogState extends State<SelectThemeDialog> {
                               border: Border.all(
                                   color: themeData.colorScheme.onBackground,
                                   width: 1),
-                              color: AppTheme.lightTheme.backgroundColor,
+                             // color: AppTheme.lightTheme.backgroundColor,
                               borderRadius:
                                   BorderRadius.all(Radius.circular(11))),
                         ),
@@ -115,7 +115,7 @@ class _SelectThemeDialogState extends State<SelectThemeDialog> {
                               border: Border.all(
                                   color: themeData.colorScheme.onBackground,
                                   width: 1),
-                              color: AppTheme.darkTheme.backgroundColor,
+                            //  color: AppTheme.darkTheme.backgroundColor,
                               borderRadius:
                                   BorderRadius.all(Radius.circular(11))),
                         ),

@@ -94,8 +94,8 @@ class _PostRequestScreenState extends State<PostRequestScreen> {
                                         )
                                       : ClipOval(
                                           child: Container(
-                                            color: theme
-                                                .colorScheme.primaryVariant,
+                                          //  color: theme
+                                            //    .colorScheme.primaryVariant,
                                             // button color
                                             child: SizedBox(
                                                 width: 30,

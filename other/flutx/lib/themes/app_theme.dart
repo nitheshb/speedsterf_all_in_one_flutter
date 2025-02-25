@@ -42,7 +42,7 @@ class FxAppTheme {
     primaryColor: Color(0xff3C4EC5),
 
     /// Scaffold and Background color
-    backgroundColor: Color(0xffffffff),
+   // backgroundColor: Color(0xffffffff),
     scaffoldBackgroundColor: Color(0xffffffff),
     canvasColor: Colors.transparent,
 
@@ -148,7 +148,7 @@ class FxAppTheme {
     splashColor: Colors.white.withAlpha(100),
     indicatorColor: Color(0xffeeeeee),
     highlightColor: Color(0xffeeeeee),
-    errorColor: Color(0xfff0323c),
+    //errorColor: Color(0xfff0323c),
   );
 
   /// -------------------------- Dark Theme  -------------------------------------------- ///
@@ -163,7 +163,7 @@ class FxAppTheme {
 
     /// Scaffold and Background color
     scaffoldBackgroundColor: Color(0xff161616),
-    backgroundColor: Color(0xff161616),
+    //backgroundColor: Color(0xff161616),
     canvasColor: Colors.transparent,
 
     /// AppBar Theme
@@ -269,7 +269,7 @@ class FxAppTheme {
     indicatorColor: Colors.white,
     disabledColor: Color(0xffa3a3a3),
     highlightColor: Colors.white.withAlpha(28),
-    errorColor: Colors.orange,
+    //errorColor: Colors.orange,
     splashColor: Colors.white.withAlpha(56),
   );
 

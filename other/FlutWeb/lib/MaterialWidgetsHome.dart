@@ -27,8 +27,9 @@ class _MaterialWidgetsHomeState extends State<MaterialWidgetsHome> {
             margin: EdgeInsets.only(top: 8, bottom: 16),
             child: Center(
               child: Text("More widgets are coming soon...",
-                  style: AppTheme.getTextStyle(themeData.textTheme.bodyText2,
-                     letterSpacing: 0.5,fontWeight: 500,)),
+                  //style: AppTheme.getTextStyle(themeData.textTheme.bodyText2,
+                    // letterSpacing: 0.5,fontWeight: 500,)
+              ),
             ),
           )
         ],
